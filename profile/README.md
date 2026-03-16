@@ -1,14 +1,14 @@
 # 🚀 La nostra azienda
 
-Siamo un’azienda di **sviluppo software** specializzata nella realizzazione di **app mobile cross-platform con Flutter** e **siti web moderni, performanti e scalabili**.
+Siamo un’azienda di **sviluppo software** specializzata nella realizzazione di **app mobile cross-platform con Flutter/ReactNative** e **siti web moderni, performanti e scalabili**.
 
 Aiutiamo startup, PMI e aziende strutturate a trasformare idee in **prodotti digitali solidi**, curati sia dal punto di vista tecnico che dell’esperienza utente.
 
 ---
 
-## 📱 Sviluppo App Mobile con Flutter
+## 📱 Sviluppo App Mobile con Flutter/ReactNative
 
-Utilizziamo **Flutter** per creare applicazioni:
+Utilizziamo **Flutter/ReactNative** per creare applicazioni:
 
 * iOS e Android da un’unica base di codice
 * Performanti, fluide e con UI moderne
@@ -41,7 +41,7 @@ Che si tratti di un sito vetrina, una dashboard o una web app complessa, puntiam
 
 ## 🛠️ Tecnologie principali
 
-* **Flutter / Dart**
+* **Flutter / ReactNative**
 * **Web moderni (frontend & backend)**
 * API, integrazioni e sistemi custom
 * Best practice di sviluppo e versionamento
