@@ -1,55 +1,76 @@
-# 🚀 La nostra azienda
+# 🚀 Metis Technologies
 
-Siamo un’azienda di **sviluppo software** specializzata nella realizzazione di **app mobile cross-platform con Flutter/ReactNative** e **siti web moderni, performanti e scalabili**.
+Siamo una **software house italiana** specializzata nello sviluppo di **app mobile cross-platform** e **piattaforme web moderne, performanti e scalabili**.
 
-Aiutiamo startup, PMI e aziende strutturate a trasformare idee in **prodotti digitali solidi**, curati sia dal punto di vista tecnico che dell’esperienza utente.
-
----
-
-## 📱 Sviluppo App Mobile con Flutter/ReactNative
-
-Utilizziamo **Flutter/ReactNative** per creare applicazioni:
-
-* iOS e Android da un’unica base di codice
-* Performanti, fluide e con UI moderne
-* Facilmente manutenibili e scalabili nel tempo
-
-Dalla fase di progettazione fino alla pubblicazione sugli store, seguiamo l’intero ciclo di sviluppo.
+Aiutiamo startup e PMI a trasformare idee in **prodotti digitali solidi**, curati sia sul piano tecnico che dell'esperienza utente.
 
 ---
 
-## 🌐 Sviluppo Siti Web e Web App
+## 📱 Mobile
 
-Realizziamo **siti web e web application**:
+Sviluppiamo applicazioni mobile con **Flutter**:
 
-* Responsive e ottimizzati per tutti i dispositivi
-* Veloci, SEO-friendly e orientati alle conversioni
-* Costruiti con tecnologie moderne e best practice
+- iOS e Android da una sola codebase
+- UI native e fluide
+- Architetture manutenibili e scalabili
 
-Che si tratti di un sito vetrina, una dashboard o una web app complessa, puntiamo sempre a qualità e affidabilità.
-
----
-
-## 🧠 Il nostro approccio
-
-* **Analisi e consulenza**: capiamo a fondo il tuo obiettivo
-* **Sviluppo pulito e strutturato**: codice leggibile, testabile e solido
-* **Attenzione ai dettagli**: UX, performance e stabilità
-* **Collaborazione continua**: comunicazione chiara e trasparente
+Dal product discovery fino alla pubblicazione su App Store e Play Store.
 
 ---
 
-## 🛠️ Tecnologie principali
+## 🌐 Web
 
-* **Flutter / ReactNative**
-* **Web moderni (frontend & backend)**
-* API, integrazioni e sistemi custom
-* Best practice di sviluppo e versionamento
+Realizziamo siti web e web application moderne:
+
+- **Next.js + React + TypeScript**, deploy su **Cloudflare**
+- Responsive, accessibili, SEO-friendly
+- Veloci e pronti per scalare
+
+Dal sito vetrina alle dashboard multi-tenant.
+
+---
+
+## ⚙️ Backend
+
+Per i prodotti che richiedono un server forte:
+
+- **NestJS + Prisma + PostgreSQL**
+- Isolamento multi-tenant by design
+- API-first, documentate con OpenAPI
+
+---
+
+## 🧠 Come lavoriamo
+
+- **Discovery prima del codice** — ascoltiamo, poi proponiamo
+- **Codice pulito** — leggibile, testabile, refactor-friendly
+- **Attenzione ai dettagli** — UX, performance, sicurezza
+- **Collaborazione trasparente** — cicli brevi, stato sempre visibile
+
+---
+
+## 🛠️ Stack principale
+
+| Layer | Tech |
+| --- | --- |
+| Mobile | Flutter / Dart |
+| Web | Next.js, React, TypeScript, Tailwind |
+| Backend | NestJS, Prisma, PostgreSQL |
+| Cloud | Cloudflare (Workers, R2, D1) |
+| Tooling | pnpm + Nx monorepo, GitHub Actions, Linear |
+
+---
+
+## 📦 Progetti pubblici
+
+| Repo | A cosa serve |
+| --- | --- |
+| [beautyflow](https://github.com/Metis-Technologies/beautyflow) | Piattaforma web Beautyflow — NestJS API + Next.js dashboard + marketplace |
+| [beautyflow-mobile](https://github.com/Metis-Technologies/beautyflow-mobile) | App mobile Flutter di Beautyflow |
+| [metis-website](https://github.com/Metis-Technologies/metis-website) | metis-technologies.com — Next.js su Cloudflare |
 
 ---
 
 ## 🤝 Lavoriamo insieme
 
-Se stai cercando un partner affidabile per sviluppare la tua **app mobile** o il tuo **progetto web**, sei nel posto giusto.
-
-📩 Contattaci per trasformare la tua idea in un prodotto digitale concreto.
+📩 Apri una issue o scrivici per trasformare la tua idea in un prodotto digitale concreto.
