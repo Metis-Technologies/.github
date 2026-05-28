@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Domande generali
+    url: https://github.com/Metis-Technologies/.github/discussions
+    about: Per domande generiche o supporto, usa le Discussions dell'organizzazione.
+  - name: Sicurezza
+    url: https://github.com/Metis-Technologies/.github/security/policy
+    about: Per segnalazioni di sicurezza, segui la policy privata.
