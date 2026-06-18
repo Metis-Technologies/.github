@@ -4,7 +4,7 @@
 
 If you find a security issue in any **Metis Technologies** repository, please **do not open a public issue**.
 
-Report it privately to **security@metis-technologies.com** (or `hello@metis-technologies.com` if the security alias is unavailable).
+**Preferred channel:** open a private report from the repository's **Security → Advisories → Report a vulnerability** tab (GitHub Private Vulnerability Reporting). Alternatively, email **security@metis-technologies.com** (or `hello@metis-technologies.com` if the security alias is unavailable).
 
 Include:
 
