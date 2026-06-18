@@ -1,0 +1,52 @@
+name: ✨ Feature request
+description: Proponi una nuova funzionalità o un miglioramento
+title: "feat: <breve titolo>"
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: Descrivi il problema da risolvere prima della soluzione proposta.
+  - type: input
+    id: repo
+    attributes:
+      label: Repository interessata
+      placeholder: beautyflow / beautyflow-mobile / metis-website
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema da risolvere
+      description: Quale problema utente o tecnico stai cercando di risolvere?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposta
+      description: Descrivi la soluzione proposta.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative considerate
+      description: Altre opzioni valutate e perché sono state scartate.
+    validations:
+      required: false
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      value: |
+        - [ ]
+        - [ ]
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Note tecniche
+      description: Impatti su architettura, dipendenze, performance, sicurezza.
+    validations:
+      required: false

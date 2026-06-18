@@ -1,0 +1,66 @@
+name: 🐛 Bug report
+description: Segnala un bug riproducibile
+title: "bug: <breve titolo>"
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie per la segnalazione. Compila i campi sotto.
+        **Non incollare mai secret, token o API key.**
+  - type: input
+    id: repo
+    attributes:
+      label: Repository interessata
+      placeholder: beautyflow / beautyflow-mobile / metis-website
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrizione
+      description: Cosa è andato storto?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passi per riprodurre
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Risultato atteso
+      description: Cosa doveva succedere?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Risultato reale
+      description: Cosa è successo invece?
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Ambiente
+      value: |
+        - Versione / commit:
+        - OS:
+        - Browser (se web):
+        - Versione app (se mobile):
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Screenshot / log
+      description: Allega screenshot o log. Rimuovi i secret prima di incollare.
+    validations:
+      required: false
