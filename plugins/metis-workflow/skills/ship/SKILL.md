@@ -32,6 +32,7 @@ Effetto: branch `feature|fix|chore/<slug>` → commit Conventional → push → 
 
 - `type` ∈ `feat`, `fix`, `chore`, `docs`, `refactor`, `test` (+ `build`/`ci`/`perf`/`style` dove ammesso dal repo).
 - **Mai** push diretto su `main`/`staging`/`develop`. **Mai** `--base staging` senza conferma esplicita dell'utente.
+- Se sei su un branch `claude/<slug>` (sessione Claude Code web): **non è conforme** alla convenzione → sposta il lavoro su `feature|fix|chore/<slug>` (o `<KEY>-<N>-<slug>` per BF/BFM), apri la PR da lì ed elimina il `claude/*`. Mai mergiare un `claude/*`.
 - Prima di shippare: lint/test/typecheck dell'app toccata **verdi**.
 - Mai committare secret. Solo modifiche chirurgiche già concordate.
 - Le naming/branch rule complete e il piano di migrazione Linear futura sono in `.github-private/profile/README.md`.
