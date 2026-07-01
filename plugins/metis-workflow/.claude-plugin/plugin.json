@@ -1,0 +1,10 @@
+{
+  "name": "metis-workflow",
+  "description": "Skill condivise per il workflow di sviluppo e ops di Metis Technologies.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Metis Technologies",
+    "url": "https://github.com/Metis-Technologies"
+  },
+  "homepage": "https://github.com/Metis-Technologies/.github/tree/main/plugins/metis-workflow"
+}

@@ -1,0 +1,54 @@
+# ⚠️ SCAFFOLD DORMIENTE — non esegue nulla finché non lo attivi consapevolmente.
+#
+# Routine ops Metis (linear-triage giornaliero, weekly-digest settimanale) via
+# anthropics/claude-code-action. È volutamente NON attivo:
+#   1. è un *workflow template* org: non gira finché non lo aggiungi a una repo;
+#   2. trigger solo `workflow_dispatch` (manuale) — lo `schedule:` è commentato;
+#   3. richiede il secret org `ANTHROPIC_API_KEY` (oggi NON impostato — vedi
+#      .github-private/profile/README.md);
+#   4. richiede gli MCP Linear/Notion configurati per il run headless.
+#
+# Per ATTIVARLO (quando vorrai):
+#   - aggiungi il secret `ANTHROPIC_API_KEY` a livello org;
+#   - decommenta il blocco `schedule:`;
+#   - da policy org, PINNA l'action a un commit SHA prima dell'uso;
+#   - per lo schedule, valuta di sdoppiare in due workflow (uno per routine) o
+#     di mappare la routine in base a `github.event.schedule`.
+
+name: Claude — routine ops (DORMIENTE)
+
+on:
+  workflow_dispatch:
+    inputs:
+      routine:
+        description: "Routine da eseguire"
+        type: choice
+        options: [triage, digest]
+        default: triage
+  # schedule:
+  #   - cron: "0 6 * * 1-5"   # triage: feriali ~08:00 Europe/Rome
+  #   - cron: "0 15 * * 5"    # digest: venerdì ~17:00 Europe/Rome
+
+permissions:
+  contents: read
+
+concurrency:
+  group: claude-routine-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  routine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Claude routine
+        uses: anthropics/claude-code-action@v1 # pinnare a SHA prima dell'uso
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt: |
+            Esegui la routine "${{ github.event.inputs.routine || 'triage' }}" del plugin metis-workflow.
+            - triage: triage degli issue Linear (team BF e BFM) creati/aggiornati nelle ultime 24h —
+              assegna label area:/type:, progetto e priorità; segnala gli "In Progress" fermi da >7 giorni;
+              produci un digest sintetico. Non inventare cambi non supportati dal contenuto dell'issue.
+            - digest: update settimanale (issue Linear Done + PR mergiate negli ultimi 7 giorni) raggruppato
+              per repo/area, in italiano, conciso, con link. Niente metriche inventate.
