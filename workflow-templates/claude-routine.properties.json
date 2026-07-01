@@ -1,7 +1,0 @@
-{
-  "name": "Claude — routine ops (triage / digest)",
-  "description": "Scaffold DORMIENTE per le routine linear-triage e weekly-digest. Non gira finché non lo instanzi, aggiungi ANTHROPIC_API_KEY e decommenti lo schedule.",
-  "iconName": "octicon-sync",
-  "categories": ["automation"],
-  "filePatterns": []
-}
