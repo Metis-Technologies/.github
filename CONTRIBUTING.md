@@ -26,7 +26,7 @@ Branch and commit convention is enforced per repo. Linear team keys:
 
 - `beautyflow` → team `BF`
 - `beautyflow-mobile` → team `BFM`
-- `metis-website`, `.github`, `.github-private` → no Linear team yet (workspace on the Free plan) → branch `chore|feature|fix/<slug>` and track via GitHub issues
+- `metis-website`, `metis-agent-engine`, `.github`, `.github-private` → no Linear team yet (workspace on the Free plan) → branch `chore|feature|fix/<slug>`, tracked via branches/commits/PRs only. Do **not** open GitHub Issues for these — that's a deliberate policy choice, not an oversight
 
 Branch format: `feature|fix|chore/<KEY>-<N>-<slug>`
 Commit format: `<KEY>-<N> <type>: <description>` (`type` ∈ `feat`, `fix`, `refactor`, `chore`, `docs`, `test`)
