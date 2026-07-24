@@ -6,9 +6,9 @@ Each repository may have its own `CONTRIBUTING.md` with specifics; this file is 
 
 ## Before you start
 
-1. Open an **issue** to discuss the change before writing code (especially for non-trivial work)
-2. For internal contributors: create the corresponding **Linear ticket** first
-3. Check existing issues and PRs to avoid duplicates
+1. External contributors should open an **issue** to discuss non-trivial changes when the target repository accepts public issues.
+2. Internal contributors create a Linear ticket only for repositories with a dedicated team (`BF` or `BFM`). Ticketless repositories use branches, commits, and pull requests only.
+3. Check existing issues and pull requests to avoid duplicates.
 
 ## Workflow
 
@@ -26,10 +26,17 @@ Branch and commit convention is enforced per repo. Linear team keys:
 
 - `beautyflow` → team `BF`
 - `beautyflow-mobile` → team `BFM`
-- `metis-website`, `.github`, `.github-private` → no Linear team yet (workspace on the Free plan) → branch `chore|feature|fix/<slug>` and track via GitHub issues
+- `metis-website`, `metis-agent-engine`, `.github`, `.github-private` → no Linear team yet (workspace on the Free plan) → branch `chore|feature|fix/<slug>`, tracked via branches/commits/PRs only. Do **not** open GitHub Issues for these — that's a deliberate policy choice, not an oversight
 
-Branch format: `feature|fix|chore/<KEY>-<N>-<slug>`
-Commit format: `<KEY>-<N> <type>: <description>` (`type` ∈ `feat`, `fix`, `refactor`, `chore`, `docs`, `test`)
+For repositories with a Linear team:
+
+- Branch format: `feature|fix|chore/<KEY>-<N>-<slug>`
+- Commit format: `<KEY>-<N> <type>: <description>` (`type` ∈ `feat`, `fix`, `refactor`, `chore`, `docs`, `test`)
+
+For ticketless repositories:
+
+- Branch format: `feature|fix|chore/<slug>`
+- Commit format: `<type>: <description>` without a ticket prefix
 
 Local hooks (`.githooks/pre-push`, `.githooks/commit-msg`) enforce the convention. Setup once with `sh scripts/setup-hooks.sh`.
 
