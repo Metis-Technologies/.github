@@ -4,15 +4,11 @@ How to get help with **Metis Technologies** projects.
 
 ## 💬 Questions and discussions
 
-Use the **GitHub Discussions** of the relevant repository:
-
-- [beautyflow](https://github.com/Metis-Technologies/beautyflow/discussions)
-- [beautyflow-mobile](https://github.com/Metis-Technologies/beautyflow-mobile/discussions)
-- [metis-website](https://github.com/Metis-Technologies/metis-website/discussions)
+Our product repositories are currently private and GitHub Discussions isn't enabled anywhere yet. For questions, write to **hello@metis-technologies.com**.
 
 ## 🐛 Bugs and feature requests
 
-Open an **issue** in the repository you're interested in, using the provided issue templates.
+Our product repositories (beautyflow, beautyflow-mobile, metis-website, metis-agent-engine) are private, so external bug reports go through email rather than GitHub issues on those repos. Write to **hello@metis-technologies.com** with a description and steps to reproduce. Issues on this `.github` repository itself are open to everyone.
 
 ## 🔒 Security issues
 
