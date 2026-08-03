@@ -1,6 +1,6 @@
 # 🚀 Metis Technologies
 
-**Software house italiana.** Costruiamo **prodotti SaaS proprietari** e sviluppiamo **software su misura, app mobile e automazioni** per startup e PMI che vogliono crescere.
+**Software house italiana.** Sviluppiamo **siti, web app e app mobile native** per startup e PMI, e costruiamo **prodotti SaaS nostri** — a partire da Beautyflow.
 
 Trasformiamo idee in prodotti digitali solidi — curati sul piano tecnico e dell'esperienza utente, pronti a scalare.
 
@@ -28,7 +28,7 @@ Integrazioni AI pragmatiche (non hype) e automazioni di processo: assistenti su 
 
 ---
 
-## 📦 I nostri prodotti
+## 📦 Il nostro prodotto
 
 **Beautyflow** — operating system SaaS per il settore beauty: prenotazioni, marketplace, POS, fidelizzazione, payroll e assistente WhatsApp AI, con web app e app native per i clienti finali.
 
@@ -52,8 +52,8 @@ Integrazioni AI pragmatiche (non hype) e automazioni di processo: assistenti su 
 | Mobile | Flutter / Dart |
 | Web | Next.js, React, TypeScript, Tailwind |
 | Backend | NestJS, Prisma, PostgreSQL |
-| Automazioni & AI | Anthropic / OpenAI, WhatsApp, webhook & queue |
-| Cloud | Cloudflare (Workers, R2, D1) |
+| Automazioni & AI | OpenRouter, WhatsApp Cloud API, webhook & code BullMQ |
+| Cloud | Cloudflare Workers · PostgreSQL · Redis |
 | Tooling | pnpm + Nx monorepo, GitHub Actions, Linear |
 
 ---
