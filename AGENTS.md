@@ -1,6 +1,6 @@
 # Metis Technologies Public GitHub Configuration — Agent Guidelines
 
-> This file is the cross-tool source of truth for AI agents and humans working in `.github`. Claude Code loads it through [`CLAUDE.md`](CLAUDE.md); Codex, OpenCode, Gemini CLI, Cursor, and other AGENTS.md-compatible tools read it directly.
+> This file is the cross-tool source of truth for AI agents and humans working in `.github`. Claude Code loads it through [`CLAUDE.md`](CLAUDE.md); any tool that follows the [AGENTS.md convention](https://agents.md) reads it directly.
 
 ## Scope
 
