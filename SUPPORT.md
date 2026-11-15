@@ -8,7 +8,7 @@ Our product repositories are currently private and GitHub Discussions isn't enab
 
 ## 🐛 Bugs and feature requests
 
-Our product repositories (beautyflow, beautyflow-mobile, metis-website, metis-agent-engine) are private, so external bug reports go through email rather than GitHub issues on those repos. Write to **hello@metis-technologies.com** with a description and steps to reproduce. Issues on this `.github` repository itself are open to everyone.
+Our product repositories (beaflow, beaflow-mobile, metis-website, metis-agent-engine) are private, so external bug reports go through email rather than GitHub issues on those repos. Write to **hello@metis-technologies.com** with a description and steps to reproduce. Issues on this `.github` repository itself are open to everyone.
 
 ## 🔒 Security issues
 

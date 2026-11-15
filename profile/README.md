@@ -1,6 +1,6 @@
 # 🚀 Metis Technologies
 
-**Software house italiana.** Sviluppiamo **siti, web app e app mobile native** per startup e PMI, e costruiamo **prodotti SaaS nostri** — a partire da Beautyflow.
+**Software house italiana.** Sviluppiamo **siti, web app e app mobile native** per startup e PMI, e costruiamo **prodotti SaaS nostri** — a partire da Beaflow.
 
 Trasformiamo idee in prodotti digitali solidi — curati sul piano tecnico e dell'esperienza utente, pronti a scalare.
 
@@ -30,7 +30,7 @@ Integrazioni AI pragmatiche (non hype) e automazioni di processo: assistenti su 
 
 ## 📦 Il nostro prodotto
 
-**Beautyflow** — operating system SaaS per il settore beauty: prenotazioni, marketplace, POS, fidelizzazione, payroll e assistente WhatsApp AI, con web app e app native per i clienti finali.
+**Beaflow** — operating system SaaS per il settore beauty: prenotazioni, marketplace, POS, fidelizzazione, payroll e assistente WhatsApp AI, con web app e app native per i clienti finali.
 
 È anche la prova concreta di cosa sappiamo costruire end-to-end: multi-tenant rigoroso, mobile native, AI applicata e deploy serverless globale.
 
