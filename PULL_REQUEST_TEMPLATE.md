@@ -2,12 +2,11 @@
 
 <!-- Brief description of what this PR does and why. -->
 
-## Linked issue
+## Linked work
 
-<!-- Internal: link the Linear ticket (e.g. BF-42, BFM-17, MW-3) -->
-<!-- External: link the GitHub issue (e.g. #42) -->
-
-Closes #
+<!-- Internal repositories with a Linear team: link the Linear ticket (e.g. BF-42, BFM-17). -->
+<!-- External contribution: use `Closes #N` for the public GitHub issue. -->
+<!-- Ticketless internal repository: write `None — tracked by this branch and PR.` -->
 
 ## Type of change
 

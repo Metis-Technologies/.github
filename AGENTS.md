@@ -1,12 +1,12 @@
 # Metis Technologies Public GitHub Configuration — Agent Guidelines
 
-> This file is the cross-tool source of truth for AI agents and humans working in `.github`. Claude Code loads it through [`CLAUDE.md`](CLAUDE.md); Codex, OpenCode, Gemini CLI, Cursor, and other AGENTS.md-compatible tools read it directly.
+> This file is the cross-tool source of truth for AI agents and humans working in `.github`. Claude Code loads it through [`CLAUDE.md`](CLAUDE.md); any tool that follows the [AGENTS.md convention](https://agents.md) reads it directly.
 
 ## Scope
 
 This public repository contains the organization profile, community health files, issue and pull-request templates, and reusable public GitHub configuration. It has no application runtime or build toolchain.
 
-Read [`CONTRIBUTING.md`](CONTRIBUTING.md) before changing contribution workflow. Read the specific template or profile file in full before editing it. Internal organization policy lives in the private `.github-private` repository and must not be copied here unless it is intentionally public.
+Read [`CONTRIBUTING.md`](CONTRIBUTING.md) before changing contribution workflow. Read the specific template or profile file in full before editing it. Internal organization policy lives in `playbook/org` of the private `beaflow` repository and must not be copied here unless it is intentionally public.
 
 ## Git workflow
 

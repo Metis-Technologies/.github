@@ -7,7 +7,7 @@ Each repository may have its own `CONTRIBUTING.md` with specifics; this file is 
 ## Before you start
 
 1. External contributors should open an **issue** to discuss non-trivial changes when the target repository accepts public issues.
-2. Internal contributors create a Linear ticket only for repositories with a dedicated team (`BF` or `BFM`). Ticketless repositories use branches, commits, and pull requests only.
+2. Internal contributors create a Linear ticket only for repositories with a dedicated team (`BF` or `BFM`, both for the `beaflow` repository). Ticketless repositories use branches, commits, and pull requests only.
 3. Check existing issues and pull requests to avoid duplicates.
 
 ## Workflow
@@ -24,13 +24,12 @@ Each repository may have its own `CONTRIBUTING.md` with specifics; this file is 
 
 Branch and commit convention is enforced per repo. Linear team keys:
 
-- `beautyflow` → team `BF`
-- `beautyflow-mobile` → team `BFM`
-- `metis-website`, `metis-agent-engine`, `.github`, `.github-private` → no Linear team yet (workspace on the Free plan) → branch `chore|feature|fix/<slug>`, tracked via branches/commits/PRs only. Do **not** open GitHub Issues for these — that's a deliberate policy choice, not an oversight
+- `beaflow` → team `BF` for the web and API apps, team `BFM` for the Flutter app in `apps/mobile`
+- `metis-website`, `.github`, `.github-private` → no Linear team yet (workspace on the Free plan) → branch `chore|feature|fix/<slug>`, tracked via branches/commits/PRs only. Do **not** open GitHub Issues for internal work in these repositories — that is a deliberate policy choice, not an oversight.
 
 For repositories with a Linear team:
 
-- Branch format: `feature|fix|chore/<KEY>-<N>-<slug>`
+- Branch format: `feature|fix|chore/<KEY>-<N>`, with no slug
 - Commit format: `<KEY>-<N> <type>: <description>` (`type` ∈ `feat`, `fix`, `refactor`, `chore`, `docs`, `test`)
 
 For ticketless repositories:
@@ -38,7 +37,7 @@ For ticketless repositories:
 - Branch format: `feature|fix|chore/<slug>`
 - Commit format: `<type>: <description>` without a ticket prefix
 
-Local hooks (`.githooks/pre-push`, `.githooks/commit-msg`) enforce the convention. Setup once with `sh scripts/setup-hooks.sh`.
+Local Git hooks enforce the convention. Each repository documents its own hooks and how they are installed in its `AGENTS.md`.
 
 ## Code style
 
@@ -51,7 +50,7 @@ Local hooks (`.githooks/pre-push`, `.githooks/commit-msg`) enforce the conventio
 
 - One approval from a maintainer is required to merge
 - Reviewers may suggest changes; address them with new commits (don't force-push during review)
-- Squash-and-merge is the default
+- Squash-and-merge is the default, unless the repository's own guidelines say otherwise
 
 ## Code of Conduct
 

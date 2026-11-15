@@ -12,7 +12,7 @@ body:
     id: repo
     attributes:
       label: Repository interessata
-      placeholder: beautyflow / beautyflow-mobile / metis-website
+      placeholder: beaflow / metis-website
     validations:
       required: true
   - type: textarea
