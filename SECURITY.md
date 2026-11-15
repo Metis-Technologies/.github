@@ -4,16 +4,16 @@
 
 If you find a security issue in any **Metis Technologies** repository, please **do not open a public issue**.
 
-**Preferred channel:** open a private report from the repository's **Security → Advisories → Report a vulnerability** tab (GitHub Private Vulnerability Reporting). Alternatively, email **security@metis-technologies.com** (or `hello@metis-technologies.com` if the security alias is unavailable).
+**Current status:** we do not yet have a working private reporting channel. GitHub private vulnerability reporting is not enabled, and the `@metis-technologies.com` mailboxes are not active yet. Until a channel is published here, open an issue on this repository asking for a private contact, **with no technical details about the vulnerability**. We will reply and agree on a private way to receive the report.
 
-Include:
+Once in contact, please include:
 
 - A description of the issue
 - Steps to reproduce
 - Affected repository, version, and environment
 - Any proof-of-concept code (if safe to share)
 
-We aim to respond within **72 hours** and to publish a fix or mitigation within **14 days** for confirmed issues.
+We aim to respond to that request within **72 hours** and to publish a fix or mitigation within **14 days** for confirmed issues.
 
 ## Supported versions
 

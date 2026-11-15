@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Domande generali
-    url: mailto:hello@metis-technologies.com
-    about: GitHub Discussions non è ancora attivo — per domande generiche o supporto scrivi a questa email.
+  - name: Sito di Metis Technologies
+    url: https://metis-technologies.com
+    about: GitHub Discussions non è ancora attivo e le caselle email dell'azienda non sono ancora attive. Per domande generiche apri un issue usando uno dei moduli qui sopra.
   - name: Sicurezza
     url: https://github.com/Metis-Technologies/.github/security/policy
-    about: Leggi la policy di sicurezza — la segnalazione stessa va fatta tramite il canale privato indicato lì (Security Advisories), non con un issue pubblico.
+    about: Leggi la policy di sicurezza — non descrivere mai una vulnerabilità in un issue pubblico: la policy spiega come chiedere un contatto privato.

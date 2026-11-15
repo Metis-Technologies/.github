@@ -22,7 +22,7 @@ Examples of unacceptable behavior:
 
 ## Enforcement
 
-Instances of abusive or unacceptable behavior may be reported by contacting the maintainers at **hello@metis-technologies.com**. All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive or unacceptable behavior may be reported by asking the maintainers for a private contact in an issue on this repository, without details of the incident. The `@metis-technologies.com` mailboxes are not active yet. All complaints will be reviewed and investigated promptly and fairly.
 
 Maintainers have the right to remove, edit, or reject comments, commits, code, issues, and other contributions not aligned with this Code of Conduct.
 

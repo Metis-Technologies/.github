@@ -1,10 +1,10 @@
 # 🚀 Metis Technologies
 
-**Software house italiana.** Sviluppiamo **siti, web app e app mobile native** per startup e PMI, e costruiamo **prodotti SaaS nostri** — a partire da Beautyflow.
+**Software house italiana.** Sviluppiamo **siti, web app e app mobile native** per startup e PMI, e costruiamo **prodotti SaaS nostri** — a partire da Beaflow.
 
 Trasformiamo idee in prodotti digitali solidi — curati sul piano tecnico e dell'esperienza utente, pronti a scalare.
 
-🌐 **[metis-technologies.com](https://metis-technologies.com)** · 📩 **hello@metis-technologies.com**
+🌐 **[metis-technologies.com](https://metis-technologies.com)**
 
 ---
 
@@ -12,7 +12,7 @@ Trasformiamo idee in prodotti digitali solidi — curati sul piano tecnico e del
 
 ### 🌐 Web app & piattaforme
 
-Next.js + React + TypeScript con deploy su Cloudflare. Dal sito vetrina alle dashboard multi-tenant: responsive, accessibili, SEO-first e veloci.
+Next.js + React + TypeScript, con deploy su Coolify e Cloudflare. Dal sito vetrina alle dashboard multi-tenant: responsive, accessibili, SEO-first e veloci.
 
 ### 📱 App mobile native
 
@@ -30,9 +30,9 @@ Integrazioni AI pragmatiche (non hype) e automazioni di processo: assistenti su 
 
 ## 📦 Il nostro prodotto
 
-**Beautyflow** — operating system SaaS per il settore beauty: prenotazioni, marketplace, POS, fidelizzazione, payroll e assistente WhatsApp AI, con web app e app native per i clienti finali.
+**Beaflow** — operating system SaaS per il settore beauty: prenotazioni, marketplace, POS, fidelizzazione, payroll e assistente WhatsApp AI, con web app e app native per i clienti finali.
 
-È anche la prova concreta di cosa sappiamo costruire end-to-end: multi-tenant rigoroso, mobile native, AI applicata e deploy serverless globale.
+È anche la prova concreta di cosa sappiamo costruire end-to-end: multi-tenant rigoroso, mobile native, AI applicata e deploy in produzione.
 
 ---
 
@@ -53,7 +53,7 @@ Integrazioni AI pragmatiche (non hype) e automazioni di processo: assistenti su 
 | Web | Next.js, React, TypeScript, Tailwind |
 | Backend | NestJS, Prisma, PostgreSQL |
 | Automazioni & AI | OpenRouter, WhatsApp Cloud API, webhook & code BullMQ |
-| Cloud | Cloudflare Workers · PostgreSQL · Redis |
+| Cloud | Coolify · Cloudflare · PostgreSQL · Redis |
 | Tooling | pnpm + Nx monorepo, GitHub Actions, Linear |
 
 ---
@@ -62,4 +62,4 @@ Integrazioni AI pragmatiche (non hype) e automazioni di processo: assistenti su 
 
 Hai un prodotto da costruire, un'app da lanciare o un processo da automatizzare?
 
-📩 Scrivici a **hello@metis-technologies.com** — trasformiamo la tua idea in un prodotto digitale concreto.
+🌐 Scopri di più su **[metis-technologies.com](https://metis-technologies.com)** — trasformiamo la tua idea in un prodotto digitale concreto.
